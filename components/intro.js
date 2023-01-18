@@ -7,7 +7,7 @@ export default function Intro({ profile }) {
         <ImageHandler
           src={profile.personal.image.url}
           // layout="fill"
-          className="rounded-full"
+          className="rounded-md"
           width={200}
           height={200}
           alt={"Profile Picture"}
